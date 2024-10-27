@@ -1,3 +1,5 @@
+vllm serve facebook/opt-125m
+
 python3 benchmark_serving.py \
 --backend openai     \
 --dataset-name=hf_reasoning \
